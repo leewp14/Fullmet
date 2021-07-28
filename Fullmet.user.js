@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fullmet
 // @namespace    honami
-// @version      0.03
+// @version      0.04
 // @description  Enables HTML5 video controls on Google Meet's in-meeting video presentation. 
 // @author       lee.wp14
 // @source       https://github.com/leewp14/Fullmet
@@ -24,7 +24,7 @@
     var honami_FullmetClassDelay = 2000;
 
     // internal variables
-    var honamiInternals_debug_enabled = true;
+    var honamiInternals_debug_enabled = false;
     var honamiInternals_debug_label = '[DEBUG] leewp14/Fullmet';
 
     honamiInternals_debug('script started');
